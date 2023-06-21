@@ -5,9 +5,9 @@ export const Container = styled.View`
   justify-content: center;
   align-items: center;
 
-  background-color: ${props => props.theme.COLORS.GRAY_600};
+  background-color: ${({ theme }) => theme.COLORS.GRAY_600};
 `;
 
-export const LoadingIndicator = styled.ActivityIndicator.attrs(props => ({
-  color: props.theme.COLORS.GREEN_700,
+export const LoadingIndicator = styled.ActivityIndicator.attrs(({ theme }) => ({
+  color: theme.COLORS.GREEN_700,
 }))``;
