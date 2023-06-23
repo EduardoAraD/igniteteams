@@ -1,4 +1,5 @@
 import { useNavigation } from "@react-navigation/native";
+
 import { BackIcon, Container, Logo, BackButton } from "./styles";
 import logoImage from '@assets/logo.png';
 
