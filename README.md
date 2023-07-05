@@ -23,7 +23,7 @@ Pré-requisitos: npm / yarn
 
 ```bash
 # clonar repositório
-git clone https://github.com/EduardoAraD/Daily_Diet
+git clone https://github.com/EduardoAraD/igniteteams.git
 
 # instalar dependências
 yarn install
